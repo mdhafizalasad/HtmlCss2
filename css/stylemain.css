@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
-body {
+
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 17px;
     font-family: "Roboto", sans-serif;
 }
-
 img{
     width: 100%;
 }
@@ -28,105 +28,83 @@ h3{
 section{
     padding: 50px 0;
 }
-
-header {
+header{
     background-image: url(../images/dawn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #000000ad;
     background-blend-mode: multiply;
-    padding: 15px 0;
+    background-color: #000000ad;
 }
-
-nav {
-    /* position: fixed; */
-    /*z-index: 10;
-    background-color:white;*/
-    left:0;
-    right:0;
+nav{
+    position: fixed;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-nav h4 {
+nav h4{
     color: white;
     font-size: 24px;
 }
-
-nav h4 span{
-    font-weight:100;
+ nav h4 span{
+    font-weight: 100;
     background-color: rgba(255, 0, 0, 0);
     height: 0px;
     width: 0px;
-}
-nav ul {
+ }
+
+nav ul{
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
 }
-
- nav ul li {
+nav ul li{
     margin: 0 0 0 20px;
 }
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
 
-nav ul li a {
-   color: white;
-   text-decoration: none;
-   text-transform:capitalize;
-   /* font-size: 17px; */
-   font-weight: 600;
 }
-
 
 .banner{
     padding: 200px 0 150px;
-    text-align:center;
+    text-align: center;
     color: white;
- }
- .banner h3{
-     /* font-size: 30px; */
-     font-style:italic;
-     margin: 0 0 10px 0;
- }
- /* .banner span{
-     background-color:red;
-     height: 5px;
-     width: 160px;
-     display: inline-block;
-     border-radius: 10px;
- } */
-
- span{
-    background-color:red;
+}
+.banner h3{
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+span{
+    background-color: red;
     height: 5px;
     width: 160px;
     display: inline-block;
     border-radius: 10px;
 }
- /* .banner h1{
-     font-size:70px;
- } */
- .banner button {
-     background-color: #d11818;
-     color:white;
-     padding: 15px 30px;
-     font-size: 20px;
-     letter-spacing: 2px;
-     border:1px solid #d11818;
-     border-radius:35px;
-     transition: all 0.3s linear;
-     /*transition: all 0.3s ease-in-out;*/
- }
- 
- .banner button:hover {
-     background-color: #d1181800;
-     letter-spacing: 2px;
-     
- }
-
+.banner h1{
+  
+}
+.banner button{
+    background-color: #d11818;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 1px solid #d11818;
+    border-radius: 35px;
+    transition: all 0.3s linear;
+}
+.banner button:hover{
+    background-color: #d1181800;
+    letter-spacing: 3px;
+}
 
 /* UPCOMING EVENTS */
 .event-main{
@@ -153,11 +131,10 @@ nav ul li a {
     box-shadow:rgba(0, 0, 0, 0.15) 12.95px 12.95px 2.6px;
 }
 .event-box h4{
-    /* font-size: 20px; */
-    font-size: 30px;
+    font-size: 20px;
     margin: 25px 0 20px 0;
 }
-
+.event-box p{}
 .event-box a{
     color: red;
     text-decoration: none;
@@ -207,15 +184,9 @@ nav ul li a {
 }
 .tour p{
     margin: 30px 0;
-    text-align: justify;
-    width: 80%;
 }
-.tour a{
-    color: red;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 20px;
-}
+.tour a{}
+.tour img{}
 .small{
     height: 300px;
     object-fit: cover;
@@ -236,65 +207,7 @@ footer{
 }
 
 .fab{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin: 10px;
 }
-
-   .foooter-container {
-   width: 80%;
-    margin: auto;
-    /* align-items: center;
-    display: block; */
-   
-    /* padding: 30px 0;  */
-/*   
-    padding: 0px 0px 20px 300px; */
-  }
-  
-  .foooter-item {
-    width: 25%;
-    float: left;
-  }
-  
-  .foooter-item h3 {
-    font-size: 25px;
-    text-align: left;
-    color: white;
-  }
-  
-  .foooter-item ul {
-    list-style: none;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .foooter-item ul a {
-    text-decoration: none;
-  }
-  
-  
-  
-  .foooter-item ul li {
-    font-size: 16px;
-    line-height: 30px;
-    text-transform: capitalize;
-    color: white;
-  }
-.footer-end{
-    width: 80%;
-    margin: 20% 1% 0% 10%;
-   /* margin-top: 20%;
-  margin-bottom: 1%;
-  margin-left: 10%; */
-    
-}
-
-
-
-
-
-
-
-
