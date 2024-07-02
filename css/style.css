@@ -23,6 +23,7 @@ body {
 img{
     width: 100%;
 }
+
 h1{
     font-size: 70px;
     
@@ -100,6 +101,7 @@ nav ul li a {
    font-weight: 600;
 }
 
+/* =========Banner Section===== */
 
 .banner{
     padding: 200px 0 150px;
@@ -350,4 +352,171 @@ footer{
   }
   
   /* ==========scroll bar end======= */
+
+/* ==========toggle menu start======= */
+
+
+.tmenu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+   
+}
+
+.tmenu{
+    display: none;
+}
+
+/* ==========toggle menu end======= */
+
+
+  /* ==========media screen 600 px======= */
+
+  @media only screen and (max-width: 600px) {
+
+    h1{
+        font-size: 70px;
+        
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .container{
+        width: 96%;
+        
+    }
+    section{
+        padding: 50px 0;
+    }
+    
+       
+    nav {
+   
+        display: block;
+      
+    }
+    
+    nav h4 {
+        margin: 0;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+    
+    nav h4 span{
+    
+        width: 100%;
+    }
+    nav ul {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    
+     nav ul li {
+        margin: 10px 5px 10px 5px;
+    }
+    
+    nav ul li a {
+      font-size: 16px;
+    }
+
+ /* =========Toggle Menu ===== */
+
+ label {
+    display: block;
+    cursor: pointer;
+    margin-top: -15%;
+    color: white;
+}
+.tmenu {
+    text-align: center;
+    color: white;
+    display: none;
+}
+.tmenu a {
+    display: block;
+    border-bottom: 1px solid #000000;
+    background-color: white;
+    color: #000000;
+   
+ 
+}
+#toggle:checked + .tmenu {
+    display: block;
+    
+}
+    
+/* ==========toggle menu end======= */
+
+    
+    /* =========Banner Section===== */
+
+    .banner{
+        padding: 200px 0 150px;
+        text-align:center;
+        color: white;
+    }
+    .banner h3{
+        /* font-size: 30px; */
+        font-style:italic;
+        margin: 0 0 10px 0;
+    }
+    /* .banner span{
+        background-color:red;
+        height: 5px;
+        width: 160px;
+        display: inline-block;
+        border-radius: 10px;
+    } */
+
+    span{
+        background-color:red;
+        height: 5px;
+        width: 160px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+    /* .banner h1{
+        font-size:70px;
+    } */
+    .banner button {
+        background-color: #d11818;
+        color:white;
+        padding: 15px 30px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        border:1px solid #d11818;
+        border-radius:35px;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        /*transition: all 0.3s ease-in-out;*/
+    }
+    
+    .banner button:hover {
+        background-color: #d1181800;
+        letter-spacing: 2px;
+        
+    }
+    
+  }
 
